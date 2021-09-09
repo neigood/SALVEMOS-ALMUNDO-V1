@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+#menu a,
+button {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+#menu a {
+  color: #1b833a;
+}
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+    
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+:root {
+  --primario: #2ce6077a;
+  --secundario: #ec9b3b;
+}
+
+.titulo span {
+  color: #f7be16;
+}
+.nav-link {
+  color: #272121;
+}
+
+.navbar {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.imagen-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagen-principal {
+  background-image: url(../img/imagen1.jpg);
+  height: 35rem;
+}
+
+.categorias h2 {
+  font-size: 2.5rem;
+  color: #43f716;
+}
+.categorias a {
+  font-weight: 400;
+  color: #272121;
+  text-decoration: none;
+}
+
+.nosotros .img-nosotros {
+  min-height: 30rem;
+}
+
+.img-nosotros {
+  background-image: url(../img/cuidemos.jpg);
+}
+
+.btn-success {
+  background-color: #f7be16 !important;
+}
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+
+:root {
+    --color-dark: #15181f;
+    --color-dark-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 2px solid var(--color-dark-xx);
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+}
+
+.register-bg {
+    background-image: url('../img/imagen1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.testiomonial {
+    bottom: 10px
+}
+h2{
+    color: rgb(88, 214, 29);
+}
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}
+
+footer {
+  background: #1b2a4e;
+  min-height: 100px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
