@@ -14,92 +14,43 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
   <!-- Mis estilos CSS -->
-  <link rel="stylesheet" href="css/Stilos.css">
+  <link rel="stylesheet" href="css/contact.css">
   <title>salvemos al planeta</title>
 </head>
 
 <body>
 
-  <header class="container-fluid bg-primary d-flex justify-content-center">
-    <p class="text-light mb-0 p-2 fs-6">Contactanos para salvar al mundo 1-(305)-725-1000</p>
-  </header>
-
-  <main>
-    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+  <header class="Header">
+    <div class="bg-dark bd-dark1 " id="menSoc">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <span class="fs-5 text-primary fw-bold">SALVEMOS AL PLANETA</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar bg-transparent navbar-dark navbar-expand-lg">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menuprincial"
+            aria-controls="menuPrincipal" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <li class="nav-item">
-              <button><a class="nav-link" href="index.html">INICIO</a></button>
-            </li>
-            <li class="nav-item">
-              <button><a class="nav-link" href="galeria.html">GALERIA</a></button>
-            </li>
-          </ul>
-        </div>
-  </main>
+          <div class="naveg collapse navbar-collapse " id="Menuprincial">
 
-  </div>
-  </nav>
-  <section class="contact-box">
-    <div class="row no-gutters bg-dark">
-      <div class="col-xl-5 col-lg-12 register-bg">
-        <div class="position-absolute testiomonial p-4">
-          <h3 class="font-weight-bold text-light">para el futuro de nuestra siguiente generacion.</h3>
-          <p class="lead text-light">La nueva etapa de la revolución ecologica.</p>
-        </div>
-      </div>
-      <div class="col-xl-7 col-lg-12 d-flex">
-        <div class="container align-self-center p-6">
-          <h1 class="font-weight-bold mb-3">Contactanos para salvar al planeta</h1>
-          <div class="form-group">
-            <button class="btn btn-outline-dark d-inline-block text-light mr-2 mb-3 width-100"><i
-                class="icon ion-logo-google lead align-middle mr-2"></i> Google </button>
-            <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100"><i
-                class="icon ion-logo-facebook lead align-middle mr-2"></i> Facebook</button>
+            <div class="naveg  navbar-nav w-100 justify-content-center">
+              <a href="index.html"> INICIO</a>
+              <a href="galeria.html"> GALERIA</a>
+              <a href="masproyectos.html"> MAS PROYECTOS </a>
+            </div>
           </div>
-          <p class="text-muted mb-5">Ingresa la siguiente información para contactarnos.</p>
-
-          <form>
-            <div class="form-row mb-2">
-              <div class="form-group col-md-6">
-                <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
-                <input type="text" class="form-control" placeholder="Tu nombre">
-              </div>
-              <div class="form-group col-md-6">
-                <label class="font-weight-bold">Apellido <span class="text-danger">*</span></label>
-                <input type="text" class="form-control" placeholder="Tu apellido">
-              </div>
-            </div>
-            <div class="form-group mb-3">
-              <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
-              <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico">
-            </div>
-            <div class="form-group mb-3">
-              <label class="font-weight-bold">mensaje<span class="text-danger">*</span></label>
-              <input type="password" class="form-control" placeholder="Ingresa un mensaje">
-            </div>
-            <div class="form-group mb-5">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox">
-                <label class="form-check-label text-muted">Al seleccionar esta casilla aceptas nuestro aviso de
-                  privacidad y los términos y condiciones</label>
-              </div>
-            </div>
-            <button class="btn btn-primary width-100">ENVIAR</button>
-          </form>
-        </div>
+        </nav>
       </div>
     </div>
+  </header>
+
+  <section class="form-register">
+    <h4>CONTACTANOS PARA SABER MAS.</h4>
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su mensaje">
+    <p>quiero aydar con una <a href="#"> DONACION</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="#">¿quieres ser voluntario?</a></p>
   </section>
 
   <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
@@ -116,6 +67,12 @@
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
 </body>
 
 </html>

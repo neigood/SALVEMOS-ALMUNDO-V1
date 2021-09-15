@@ -20,40 +20,30 @@
 
 <body>
 
-  <header class="container-fluid bg-primary d-flex justify-content-center">
-    <p class="text-light mb-0 p-2 fs-6">Contactanos para salvar al planeta 1-(305)-725-1000</p>
-  </header>
+  <header class="Header">
+    <div class="bg-dark bd-dark1 " id="menSoc">
+      <div class="container">
+        <nav class="navbar bg-transparent navbar-dark navbar-expand-lg">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menuprincial"
+            aria-controls="menuPrincipal" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <span class="fs-5 text-primary fw-bold">SALVEMOS AL PLANETA</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <div class="naveg collapse navbar-collapse " id="Menuprincial">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <button> <a class="nav-link" href="#evitarlo">COMO EVITARLO</a></button>
-          </li>
-          <li class="nav-item">
-            <button> <a class="nav-link" href="galeria.html">GALERIA</a></button>
-          </li>
-          <li class="nav-item">
-            <button> <a class="nav-link" href="contacto.html">CONTACTANOS</a></button>
-          </li>
-          <li class="nav-item">
-            <button><a class="nav-item nav-link text-center" href="#" onclick="generarNuevoColor()">CAMBIA EL COLOR A TU
-                MANERA</a></button>
-          </li>
-        </ul>
+            <div class="naveg  navbar-nav w-100 justify-content-center">
+              <a class="nav-link" href="#evitarlo">COMO EVITARLO</a>
+              <a href="galeria.html"> GALERIA</a>
+              <a href="contacto.html"> CONTACTANOS</a>
+              <a href="masproyectos.html"> MAS PROYECTOS </a>
+              <a class="nav-item nav-link text-center" href="#" onclick="generarNuevoColor()">CAMBIA EL COLOR A TU
+                MANERA</a>
+            </div>
+          </div>
+        </nav>
       </div>
-
     </div>
-  </nav>
+  </header>
 
   <div class="imagen-principal imagen-bg container-fluid">
   </div>
@@ -190,6 +180,7 @@
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="js/swet.js"></script>
+  <script src="js/style.js"></script>
 </body>
 
 </html>
