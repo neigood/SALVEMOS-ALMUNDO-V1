@@ -106,7 +106,7 @@ button {
 }
 
 .carousel-inner {
-  max-height: 60rem !important;
+  max-height: 65rem !important;
 }
 
 #img-equipo {
@@ -166,4 +166,9 @@ footer p {
   color: #f3f3f3;
 }
 
+/* finde del google maps pirata  */
+#map {
+	height: 500px;
+	width: 100%;
+}
 
